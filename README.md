@@ -4,7 +4,6 @@
 [English document](https://github.com/lin-xin/manage-system/blob/master/README_EN.md)
 
 ## 捐赠
-![微信扫一扫](http://blog.gdfengshuo.com/images/weixin.jpg)
 
 ## 前言 ##
 
