@@ -2,19 +2,17 @@
     position: absolute;
     top: 100px;
     left: 100px;
-    /* width: 200px;
-    height: 200px; */
-    background:#e5efe3d9;
-    border: 1px solid rgb(173, 172, 172);
-    border-radius: 5px;
-    box-shadow: 0 1px 1px 1px rgb(223, 219, 219);
+    background:#ebf0ead9;
+    /* border: 1px solid rgb(236, 217, 217); */
+    /* border-radius: 5px; */
+    overflow: hidden;
 }
 .active {
   opacity: 0.6;
   z-index: 10
 }
 
-.drag .title {
+ .drag .close {
     visibility: hidden;
     position: absolute;
     height: 20px;
@@ -22,15 +20,20 @@
     top: 0;
     right: 0;
 }
-.active .title{
+.active .close{
     visibility: visible
-}
-.drag  .dialog {
-    overflow: hidden;
+} 
 
+.drag .close{
+    color: #ff4949;
+    cursor: pointer;
+    font-size: 17px;
 }
-.drag .title .close{
-    color: #d85656;
+
+.drag  .dialog {
+    /* overflow: hidden; */
+    margin-bottom: -4px;   
+   /* 有问题 */
 }
 
 .drag  .resizeBR {
@@ -52,7 +55,7 @@
 .drag  .resizeTR,
 .drag  .resizeLB {
     position: absolute;
-    background: #000;
+    background: rgb(238, 230, 230);
     overflow: hidden;
     opacity: 0;
     filter: alpha(opacity=0);
@@ -73,7 +76,7 @@
 .drag  .resizeT,
 .drag  .resizeB {
     width: 100%;
-    height: 5px;
+    height: 1px;
     cursor: n-resize;
 }
 

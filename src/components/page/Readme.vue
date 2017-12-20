@@ -9,7 +9,7 @@
             <h3>README.md</h3>
             <article>
                 <h1>manage-system</h1>
-                <p>基于Vue.js 2.x系列 + Element UI 的后台管理系统解决方案</p>
+                <p>Vue.js 2.x + Element UI</p>
             </article>
         </div>
 
