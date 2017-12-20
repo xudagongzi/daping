@@ -31,8 +31,8 @@
                 <div class="block">
                   <span class="demonstration">输入标题</span>
                   <el-input v-model="item.options.title" placeholder="请输入名称"></el-input>
+                  {{item.options.title}}
                 </div>
-
                 <div class="block">
                   <span class="demonstration">标题颜色</span>
                   <el-color-picker v-model="item.options.titleColor"></el-color-picker>
@@ -61,7 +61,7 @@
                 </div>
 
                 <div class="block" v-if="item.type=='ring'|item.type=='pie'">
-                  <span class="demonstration" >图例字体颜色</span>
+                  <span class="demonstration">图例字体颜色</span>
                   <el-color-picker v-model="item.options.legendColor"></el-color-picker>
                 </div>
               </div>
@@ -89,29 +89,32 @@ export default {
     return {
       items: [],
       activeSetting: "0",
-      activeName:'first'
+      activeName: "first"
     };
   },
   beforeMount() {},
   mounted() {
     this.load();
+  },
+  watch: {
+    items: {
+      handler: function(val) {
+        console.log(val);
+      }
+    },
+    deep: true
+  },
+  beforeUpdate: function() {
     
   },
-    // watch:{
-    //    items:{
-    //        handler:function(val,oldval){
-    //             console.log(val)
-    //        }
-    //    },
-    //     deep:true
-    // },
-  beforeUpdate: function() {
-    // this.draw();
-  },
   methods: {
+    renderChart: function() {
+      var self = this;
+      new sChart(self.canvasId, self.type, self.data, self.options);
+    },
     // 右侧选项卡
     handleClick(tab, event) {
-      console.log(tab, event);
+      // console.log(tab, event);
     },
     //  关闭图表
     close(index) {
@@ -340,7 +343,7 @@ export default {
   height: 300px;
   border: 1px solid grey;
 }
-.styleWrap{
+.styleWrap {
   padding: 5px;
 }
 </style>
