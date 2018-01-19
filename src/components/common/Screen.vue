@@ -118,12 +118,30 @@ export default {
     return {
       items:this.$store.state.items,
       activeSetting: "0",
+<<<<<<< HEAD
       activeName: "first",
+=======
+      activeName: "first"
+>>>>>>> 5e9719e19ee71d0eb3d2cb870ee5776bc1014acd
     };
   },
   beforeMount() {},
   mounted() {
     this.load();
+<<<<<<< HEAD
+=======
+  },
+  watch: {
+    items: {
+      handler: function(val) {
+        console.log(val);
+      }
+    },
+    deep: true
+  },
+  beforeUpdate: function() {
+    
+>>>>>>> 5e9719e19ee71d0eb3d2cb870ee5776bc1014acd
   },
   beforeUpdate: function() {},
   methods: {
@@ -320,6 +338,7 @@ export default {
   top: 100px;
   background-color: #173347;
 }
+<<<<<<< HEAD
 /* .settings {
       position: absolute;
     right: 0;
@@ -329,6 +348,16 @@ export default {
     border: 1px solid #ccc;
     background: #fbfdffdb;
 } */
+=======
+.settings {
+  position: fixed;
+  right: 0;
+  top: 50px;
+  width: 200px;
+  height: 300px;
+  border: 1px solid grey;
+}
+>>>>>>> 5e9719e19ee71d0eb3d2cb870ee5776bc1014acd
 .styleWrap {
   padding: 5px;
 }

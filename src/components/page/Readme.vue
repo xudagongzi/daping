@@ -9,7 +9,11 @@
             <h3>README.md</h3>
             <article>
                 <h1>manage-system</h1>
+<<<<<<< HEAD
                 <p>Vue.js 2.x + Element UI</p>
+=======
+                <p>基于Vue.js 2.x系列 + Element UI解决方案</p>
+>>>>>>> 5e9719e19ee71d0eb3d2cb870ee5776bc1014acd
             </article>
         </div>
 

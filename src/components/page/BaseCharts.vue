@@ -39,7 +39,11 @@
 </template>
 
 <script>
+<<<<<<< HEAD
 import Schart from "vschart";
+=======
+import Schart from "vue-schart";
+>>>>>>> 5e9719e19ee71d0eb3d2cb870ee5776bc1014acd
 export default {
   components: {
     Schart
@@ -70,7 +74,11 @@ export default {
     },
     options2: {
       title: "某商店各商品年度销量",
+<<<<<<< HEAD
       bgColor: "#009688",
+=======
+      bgColor: "#607d8b",
+>>>>>>> 5e9719e19ee71d0eb3d2cb870ee5776bc1014acd
       titleColor: "#ffffff",
       legendColor: "#ffffff" //图例字体颜色
     }
