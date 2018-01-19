@@ -37,7 +37,7 @@
                     {
                         icon: 'el-icon-star-on',
                         index: 'daping',
-                        title: ' 自定义'
+                        title: ' 我的可视化'
                     }
                 ]
             }

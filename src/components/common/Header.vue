@@ -1,6 +1,6 @@
 <template>
     <div class="header">
-        <div class="logo">***</div>
+        <div class="logo">此处是 logo</div>
         <div class="user-info">
             <el-dropdown trigger="click" @command="handleCommand">
                 <span class="el-dropdown-link">

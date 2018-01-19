@@ -8,8 +8,10 @@
         <div class="ms-doc">
             <h3>README.md</h3>
             <article>
-                <h1>manage-system</h1>
-                <p>Vue.js 2.x + Element UI</p>
+                <h1>数据可视化大屏配置系统</h1>
+                <p>Vue.js + Element UI + vschart</p>
+                <p>采用Vue对图表配置信息进行封装，帮助非专业的工程师通过图形化的界面轻松搭建专业水准的可视化应用
+                 更新中</p>
             </article>
         </div>
 

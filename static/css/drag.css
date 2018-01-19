@@ -8,10 +8,11 @@
     overflow: hidden;
 }
 .active {
-  opacity: 0.6;
   z-index: 10
 }
-
+.active:hover{
+    opacity: 0.6;
+}
  .drag .close {
     visibility: hidden;
     position: absolute;

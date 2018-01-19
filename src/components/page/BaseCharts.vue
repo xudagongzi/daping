@@ -8,8 +8,8 @@
             </el-breadcrumb>
         </div>
         <div class="plugins-tips">
-            vue-schart：vue.js封装sChart.js的图表组件。 访问地址：
-            <a href="https://github.com/lin-xin/vue-schart" target="_blank">vue-schart</a>
+            vschart：vue.js封装sChart.js的图表组件。 npmjs地址：
+            <a href="https://www.npmjs.com/package/vschart" target="_blank">vschart</a>
         </div>
         <div class="schart">
             <div class="content-title">柱状图</div>
@@ -27,14 +27,7 @@
             <div class="content-title">环形图</div>
             <schart canvasId="ring" width="500" height="400" :data="data2" :type="type" :options="options2"></schart>
         </div>
-        <div class="block">
-            <span class="demonstration">输入type</span>
-            <el-input v-model="type" placeholder="请输入名称"></el-input>
-        </div>
-         <div class="block">
-            <span class="demonstration">输入data2</span>
-            <el-input v-model="data2" placeholder="请输入标题"></el-input>
-        </div>
+     
     </div>
 </template>
 
