@@ -138,10 +138,10 @@ export default {
   height: 100%;
 }
 .dialog-wrap {
-  width: 1200px;
-  height: 700px;
+  width: 65%;
+  height: 75%;
   position: absolute;
-  left: 200px;
+  left: 8%;
   top: 120px;
   background-color: #173347;
 }

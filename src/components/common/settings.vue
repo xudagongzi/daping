@@ -140,13 +140,11 @@ export default {
   position: absolute;
   right: 0;
   top: 62px;
-  width: 400px;
+  width: 24%;
   height: 100%;
   border: 1px solid #ccc;
   background: #fbfdffdb;
   box-shadow: 0 0 5px #ccc;
-  /* padding: 15px; */
-  font-size: 18px;
 }
 .block {
   padding: 8px;
