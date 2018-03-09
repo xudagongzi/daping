@@ -14,25 +14,25 @@
           <el-dropdown-menu slot="dropdown">
             <el-dropdown-item>
               <div class="img-wrap" @click="createItem('bar')">
-                <img src="/static/img/bar.png" alt="">
+                <img src="../../../static/img/bar.png" alt="">
                 <div>柱状图</div>
               </div>
             </el-dropdown-item>
             <el-dropdown-item>
               <div class="img-wrap" @click="createItem('line')">
-                <img src="/static/img/line.png" alt="">
+                <img src="../../../static/img/line.png" alt="">
                 <div>折线图</div>
               </div>
             </el-dropdown-item>
             <el-dropdown-item>
               <div class="img-wrap" @click="createItem('pie')">
-                <img src="/static/img/pie.png" alt="">
+                <img src="../../../static/img/pie.png" alt="">
                 <div>饼状图</div>
               </div>
             </el-dropdown-item>
             <el-dropdown-item>
               <div class="img-wrap" @click="createItem('ring')">
-                <img src="/static/img/ring.png" alt="">
+                <img src="../../../static/img/ring.png" alt="">
                 <div>环状图</div>
               </div>
             </el-dropdown-item>
@@ -132,7 +132,7 @@ export default {
 </script>
 
 <style>
-@import "/static/css/drag.css";
+@import "../../../static/css/drag.css";
 .screen-wrap {
   width: 100%;
   height: 100%;

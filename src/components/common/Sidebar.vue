@@ -43,8 +43,8 @@
             }
         },
         computed:{
-            onRoutes(){
-                return this.$route.path.replace('/','');
+            onRoutes(){   
+                return this.$route.path.replace('/','');           
             }
         }
     }
